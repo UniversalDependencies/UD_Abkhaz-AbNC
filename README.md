@@ -28,7 +28,7 @@
 Data available since: UD v2.14
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: grammar-examples
+Genre: fairy tales
 Lemmas: manual native
 UPOS: manual native
 XPOS: not available
