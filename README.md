@@ -1,21 +1,20 @@
 # Summary
 
-... 1-2 sentences (see [release checklist](http://universaldependencies.org/release_checklist.html#the-readme-file) for README guidelines) ...
-
+UD_Abkhaz-AbNC is a treebank based on texts from the Abkhaz National Corpus [AbNC](https://clarino.uib.no/abnc).
 
 # Introduction
 
-...
-
+UD_Abkhaz-AbNC is a treebank based on texts from the Abkhaz National Corpus [AbNC](https://clarino.uib.no/abnc), which is a corpus of written texts from a variety of genres. The sentences for the initial release of the treebank are taken from a collection of fairy tales for children (Аҧсуа лакәқәа – Ахәыҷқәа рзы, editor: Мықәба, А.).
 
 # Acknowledgments
 
-...
+The author is grateful to Saida Adzhindzhal (Suchum) for helping me understanding some of the constructions in the text.
 
 ## References
 
 * Paul Meurer. A finite state approach to Abkhaz morphology and stress. Lecture Notes in Computer Science 2011, Volume 6618. pp. 271-282.
 * Paul Meurer. The Abkhaz National Corpus. Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC 2018), Miyazaki, Japan 2018. pp. 2456–2460.
+* Paul Meurer. [Towards a Treebank of Abkhaz. The AbNC, Analysing Abkhaz, and the Importance of Good Tools](https://doi.org/10.62235/dk.2.2023.7477). Digital Kartvelology, Volume II (2023). 
 
 # Changelog
 
