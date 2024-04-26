@@ -153,9 +153,9 @@
 2	ахымҩаҧгашьа	а-хы́мҩаҧгашьа	NOUN	Noun_NH_Sg_Det	Animacy=Nhum|Definite=Def|Number=Sing	3	nsubj	_	_
 3	унаалом	а-наа́·ла-ра	VERB	V_Dyn_Intr_Fin_Pres_Neg_S:3_S:Ad_LO:2SgM	Dyn=Yes|Gender[lo]=Masc|Number[lo]=Sing|Person[lo]=2|Person[subj]=3|Polarity=Neg|Tense=Pres|Trans=No|VerbForm=Fin	7	parataxis	_	_
 4	,	,	PUNCT	Punct_Comma	_	3	punct	_	_
-5	ҧхашьароуп	а́-ҧхашьара	NOUN	Noun_NH_Sg_Cop	Animacy=Nhum|Number=Sing	7	parataxis	_	_
+5	ҧхашьароуп	а́-ҧхашьара	VERB	Noun_NH_Sg_Pred_Fin_Pres_S:3_S:Ad	Animacy=Nhum|Number=Sing|Person[subj]=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
 6	,	,	PUNCT	Punct_Comma	_	5	punct	_	_
-7	ламысдароуп	а-ламы́сдара	NOUN	Noun_NH_Sg_Cop	Animacy=Nhum|Number=Sing	10	ccomp:quote	_	_
+7	ламысдароуп	а-ламы́сдара	VERB	Noun_NH_Sg_Pred_Fin_Pres_S:3_S:Ad	Animacy=Nhum|Number=Sing|Person[subj]=3|Tense=Pres|VerbForm=Fin	10	ccomp:quote	_	_
 8	!	!	PUNCT	Punct_ExclPoint	_	7	punct	_	_
 9	–	–	PUNCT	Punct_Dash	_	7	punct	_	_
 10	аҳәеит	а-ҳәа-ра́	VERB	V_Dyn_Tr_Fin_Aor_S:3SgNH_DO:3_DO:Ad	Dyn=Yes|Gender[subj]=Neut|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Aor|Trans=Yes|VerbForm=Fin	0	root	_	_
@@ -232,7 +232,7 @@
 # text = – Закәызеи уара , сара ашәа сҳәоит , уара уцаны амахә уқәтәеит .
 # text-transcription = – Zaḳʷəzei uara , sara ašʷa sḥʷoiṭ , uara ucanə amaxʷ ukʷṭʷeiṭ .
 1	–	–	PUNCT	Punct_Dash	_	2	punct	_	_
-2	Закәызеи	а́кә-заа-ра	VERB	V_Stat_NonFin_Impf_QWhat_S:3_IO:Rel_Rel_Cop	Dyn=No|Person[io]=Rel|Person[subj]=3|Tense=Imp|VerbForm=NonFin	12	parataxis	_	_
+2	Закәызеи	а́кәзаара	AUX	V_Stat_NonFin_Impf_QWhat_S:3_IO:Rel_Rel_Cop	Dyn=No|Person[io]=Rel|Person[subj]=3|Tense=Imp|VerbForm=NonFin	12	parataxis	_	_
 3	уара	уара́	PRON	Pron_Pers_2SgM	Gender=Masc|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
 4	,	,	PUNCT	Punct_Comma	_	2	punct	_	_
 5	сара	сара́	PRON	Pron_Pers_1Sg	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
@@ -593,7 +593,7 @@
 # text = – Закәызеи уара ? !
 # text-transcription = – Zaḳʷəzei uara ? !
 1	–	–	PUNCT	Punct_Dash	_	2	punct	_	_
-2	Закәызеи	а́кә-заа-ра	VERB	V_Stat_NonFin_Impf_QWhat_S:3_IO:Rel_Rel_Cop	Dyn=No|Person[io]=Rel|Person[subj]=3|Tense=Imp|VerbForm=NonFin	0	root	_	_
+2	Закәызеи	а́кәзаара	AUX	V_Stat_NonFin_Impf_QWhat_S:3_IO:Rel_Rel_Cop	Dyn=No|Person[io]=Rel|Person[subj]=3|Tense=Imp|VerbForm=NonFin	0	root	_	_
 3	уара	уара́	PRON	Pron_Pers_2SgM	Gender=Masc|Number=Sing|Person=2|PronType=Prs	2	conj	_	_
 4	?	?	PUNCT	Punct_IntMark	_	2	punct	_	_
 5	!	!	PUNCT	Punct_ExclPoint	_	2	punct	_	_
@@ -1452,7 +1452,7 @@
 # text-transcription = – Us aḳʷzar , amla uaganə apsrouṗ iuzəpšu .
 1	–	–	PUNCT	Punct_Dash	_	7	punct	_	_
 2	Ус	ус	ADV	Adv	_	3	advmod	_	_
-3	акәзар	а́кә-заа-ра	VERB	V_Stat_NonFin_Pres_Conj-I_S:3_IO:3SgNH_Cop	Dyn=No|Gender[io]=Neut|Mood=Conj1|Number[io]=Sing|Person[io]=3|Person[subj]=3|Tense=Pres|VerbForm=NonFin	7	advcl:cond	_	_
+3	акәзар	а́кәзаара	AUX	V_Stat_NonFin_Pres_Conj-I_S:3_IO:3SgNH_Cop	Dyn=No|Gender[io]=Neut|Mood=Conj1|Number[io]=Sing|Person[io]=3|Person[subj]=3|Tense=Pres|VerbForm=NonFin	7	advcl:cond	_	_
 4	,	,	PUNCT	Punct_Comma	_	3	punct	_	_
 5	амла	а́-мла	NOUN	Noun_NH_Sg_Det	Animacy=Nhum|Definite=Def|Number=Sing	6	iobj	_	_
 6	уаганы	а-га-ра́	VERB	V_Dyn_Intr_NonFin_Cnv_Abs_Aor_S:2SgM_IO:3SgNH	Dyn=Yes|Gender[io]=Neut|Gender[subj]=Masc|Number[io]=Sing|Number[subj]=Sing|Person[io]=3|Person[subj]=2|Tense=Aor|Trans=No|VerbForm=NonFin	7	advcl:conv	_	_
@@ -1513,13 +1513,6 @@
 15	–	–	PUNCT	Punct_Dash	_	14	punct	_	_
 16	шәырхәышәтәуеит	а́-хәшәтә-ра	VERB	V_Dyn_Tr_Fin_Pres_S:3Pl_DO:2Pl	Dyn=Yes|Number[obj]=Plur|Number[subj]=Plur|Person[obj]=2|Person[subj]=3|Tense=Pres|Trans=Yes|VerbForm=Fin	0	root	_	_
 17	.	.	PUNCT	Punct_Period	_	16	punct	_	_
-
-# sent_id = w141000
-# text = Сара сзырҭахымзеи ?
-# text-transcription = Sara szərtaxəmzei ?
-1	Сара	сара́	PRON	Pron_Pers_1Sg	Number=Sing|Person=1|PronType=Prs	2	obj:ro	_	_
-2	сзырҭахымзеи	а-з·ҭа́·м-заа-ра	VERB	V_Stat_Tr_Fin_Impv_Neg_Again_S:2Sg_DO:3_DO:Ad_IO:3Pl_RO:1Sg_Reln:For_Affirm	Dyn=No|Mood=Imp|Number[io]=Plur|Number[ro]=Sing|Person[io]=3|Person[obj]=3|Person[ro]=1|Polarity=Neg|Reln=Ben|Trans=Yes|VerbForm=Fin	0	root	_	_
-3	?	?	PUNCT	Punct_IntMark	_	2	punct	_	_
 
 # sent_id = w141800
 # text = – Ҳара ауаа ҳрыхәоит , абзиа ҟаҳҵоит .
@@ -1958,12 +1951,12 @@
 2	Сара	сара́	PRON	Pron_Pers_1Sg	Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
 3	абна	а́-бна	NOUN	Noun_NH_Sg_Det	Animacy=Nhum|Definite=Def|Number=Sing	4	nmod:poss	_	_
 4	аҳ	а́ҳ	NOUN	Noun_H_Sg_Poss:3SgNH	Animacy=Hum|Gender[psor]=Neut|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
-5	соуп	а́кә-заа-ра	VERB	V_Stat_Fin_Pres_S:3_IO:1Sg_Cop	Dyn=No|Number[io]=Sing|Person[io]=1|Person[subj]=3|Tense=Pres|VerbForm=Fin	15	parataxis	_	_
+5	соуп	а́кәзаара	AUX	V_Stat_Fin_Pres_S:3_IO:1Sg_Cop	Dyn=No|Number[io]=Sing|Person[io]=1|Person[subj]=3|Tense=Pres|VerbForm=Fin	15	parataxis	_	_
 6	,	,	PUNCT	Punct_Comma	_	5	punct	_	_
 7	акәац	а-кәа́ц	NOUN	Noun_NH_Sg_Det	Animacy=Nhum|Definite=Def|Number=Sing	8	nsubj	_	_
 8	зыхәҭоугьы	а-хәҭа́	VERB	Noun_NH_Sg_Pred_NonFin_Pres_S:3_S:Ad_Rel_Poss:Rel_Encl:гьы	Animacy=Nhum|Number=Sing|Person[psor]=Rel|Person[subj]=3|Tense=Pres|VerbForm=NonFin	10	nsubj	_	_
 9	сара	сара́	PRON	Pron_Pers_1Sg	Number=Sing|Person=1|PronType=Prs	10	iobj	_	_
-10	соуп	а́кә-заа-ра	VERB	V_Stat_Fin_Pres_S:3_IO:1Sg_Cop	Dyn=No|Number[io]=Sing|Person[io]=1|Person[subj]=3|Tense=Pres|VerbForm=Fin	15	parataxis	_	_
+10	соуп	а́кәзаара	AUX	V_Stat_Fin_Pres_S:3_IO:1Sg_Cop	Dyn=No|Number[io]=Sing|Person[io]=1|Person[subj]=3|Tense=Pres|VerbForm=Fin	15	parataxis	_	_
 11	!	!	PUNCT	Punct_ExclPoint	_	10	punct	_	_
 12	–	–	PUNCT	Punct_Dash	_	10	punct	_	_
 13	абас	аба́с	ADV	Adv	_	14	advmod	_	_
@@ -2003,7 +1996,7 @@
 # text-transcription = – Us aḳʷzar , sara iusərbaṗ ! – aḥʷan , Aləm gʷəšpəla Amšʷ inagʷədleiṭ .
 1	–	–	PUNCT	Punct_Dash	_	6	punct	_	_
 2	Ус	ус	ADV	Adv	_	3	advmod	_	_
-3	акәзар	а́кә-заа-ра	VERB	V_Stat_NonFin_Pres_Conj-I_S:3_IO:3SgNH_Cop	Dyn=No|Gender[io]=Neut|Mood=Conj1|Number[io]=Sing|Person[io]=3|Person[subj]=3|Tense=Pres|VerbForm=NonFin	6	advcl:cond	_	_
+3	акәзар	а́кәзаара	AUX	V_Stat_NonFin_Pres_Conj-I_S:3_IO:3SgNH_Cop	Dyn=No|Gender[io]=Neut|Mood=Conj1|Number[io]=Sing|Person[io]=3|Person[subj]=3|Tense=Pres|VerbForm=NonFin	6	advcl:cond	_	_
 4	,	,	PUNCT	Punct_Comma	_	3	punct	_	_
 5	сара	сара́	PRON	Pron_Pers_1Sg	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 6	иусырбап	а-р:ба-ра́	VERB	V_Dyn_Tr_Caus_TrCaus_Fin_Fut-I_S:1Sg_DO:3_Cs:2SgM	Dyn=Yes|Gender[cs]=Masc|Number[cs]=Sing|Number[subj]=Sing|Person[cs]=2|Person[obj]=3|Person[subj]=1|Tense=Fut|Trans=Yes|VerbForm=Fin|Voice=Cau	9	ccomp:quote	_	_
@@ -2107,29 +2100,12 @@
 24	аҿынанахеит	а-ҿы́на·ха-ра	VERB	V_Dyn_Tr_Fin_Aor_S:3SgNH_DO:ҿ_Poss:3SgNH	Dyn=Yes|Gender[psor]=Neut|Gender[subj]=Neut|Number[psor]=Sing|Number[subj]=Sing|Person[psor]=3|Person[subj]=3|Tense=Aor|Trans=Yes|VerbForm=Fin	0	root	_	_
 25	.	.	PUNCT	Punct_Period	_	24	punct	_	_
 
-# sent_id = w188800
-# text = – Уи сара стәоуп , уаламкьысын ! – ахәаара иалагеит Амшә ахькажьыз .
-# text-transcription = – Ui sara sṭʷouṗ , ualamḳ’əsən ! – axʷaara ialageiṭ Amšʷ ax’ḳaž’əz .
-1	–	–	PUNCT	Punct_Dash	_	10	punct	_	_
-2	Уи	уи́	PRON	Pron_Pers_3Sg	PronType=Prs	4	nsubj	_	_
-3	сара	сара́	PRON	Pron_Pers_1Sg	Number=Sing|Person=1|PronType=Prs	4	nmod:poss	_	_
-4	стәоуп	а-тәы́	NOUN	Noun_H_Sg_Poss:1Sg_Cop	Animacy=Hum|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	parataxis	_	_
-5	,	,	PUNCT	Punct_Comma	_	4	punct	_	_
-6	уаламкьысын	а́-ла·кьыс-ра	VERB	V_Dyn_Intr_Fin_Impv_Neg_S:2SgM_LO:3SgNH	Dyn=Yes|Gender[lo]=Neut|Gender[subj]=Masc|Mood=Imp|Number[lo]=Sing|Number[subj]=Sing|Person[lo]=3|Person[subj]=2|Polarity=Neg|Trans=No|VerbForm=Fin	10	advcl:quote	_	_
-7	!	!	PUNCT	Punct_ExclPoint	_	6	punct	_	_
-8	–	–	PUNCT	Punct_Dash	_	6	punct	_	_
-9	ахәаара	а́-хәаа-ра	VERB	VN_Dyn_Sg_Det_Intr	Definite=Def|Dyn=Yes|Number=Sing|Trans=No	10	ccomp:lo	_	_
-10	иалагеит	а́-ла·га-ра	VERB	V_Dyn_Intr_Fin_Aor_S:3_LO:3SgNH	Dyn=Yes|Gender[lo]=Neut|Number[lo]=Sing|Person[lo]=3|Person[subj]=3|Tense=Aor|Trans=No|VerbForm=Fin	0	root	_	_
-11	Амшә	а́-мшә	NOUN	Noun_NH_Sg_Det	Animacy=Nhum|Definite=Def|Number=Sing	10	nsubj	_	_
-12	ахькажьыз	а-ка́·жь-заа-ра	VERB	V_Stat_NonFin_Cnv_Impf_Where_S:3_S:Ad	Dyn=No|Person[subj]=3|RelType=Loc|Tense=Imp|VerbForm=NonFin	10	advcl	_	_
-13	.	.	PUNCT	Punct_Period	_	10	punct	_	_
-
 # sent_id = w191000
 # text = – Шәызҿу закәызеи шәара , абзамыҟәқәа ?
 # text-transcription = – Šʷəzč̣u zaḳʷəzei šʷara , abzaməq̇ʷkʷa ?
 1	–	–	PUNCT	Punct_Dash	_	3	punct	_	_
 2	Шәызҿу	а-ҿы́-заа-ра	VERB	V_Stat_NonFin_Pres_S:2Pl_LO:Rel_Rel	Dyn=No|Number[subj]=Plur|Person[lo]=Rel|Person[subj]=2|Tense=Pres|VerbForm=NonFin	3	csubj	_	_
-3	закәызеи	а́кә-заа-ра	VERB	V_Stat_NonFin_Impf_QWhat_S:3_IO:Rel_Rel_Cop	Dyn=No|Person[io]=Rel|Person[subj]=3|Tense=Imp|VerbForm=NonFin	0	root	_	_
+3	закәызеи	а́кәзаара	AUX	V_Stat_NonFin_Impf_QWhat_S:3_IO:Rel_Rel_Cop	Dyn=No|Person[io]=Rel|Person[subj]=3|Tense=Imp|VerbForm=NonFin	0	root	_	_
 4	шәара	шәара́	PRON	Pron_Pers_2Pl	Number=Plur|Person=2|PronType=Prs	2	nsubj	_	_
 5	,	,	PUNCT	Punct_Comma	_	6	punct	_	_
 6	абзамыҟәқәа	а́-бзамыҟә	NOUN	Noun_NH_Pl_Det	Animacy=Nhum|Definite=Def|Number=Plur	4	appos	_	_
@@ -2384,19 +2360,19 @@
 6	ҳаҧшәма	а́-ҧшәма	NOUN	Noun_H_Sg_Poss:1Pl	Animacy=Hum|Number=Sing|Number[psor]=Plur|Person[psor]=1	5	obj:poss	_	_
 7	.	.	PUNCT	Punct_Period	_	5	punct	_	_
 
-# sent_id = w211900
+# sent_id = w211800
 # text = – Нас , сара соума хәарҭара злам ҳәа иуҧхьаӡо !
 # text-transcription = – Nas , sara souma xʷartara zlam ḥʷa iupx’aʒo !
 1	–	–	PUNCT	Punct_Dash	_	2	punct	_	_
-2	Нас	нас	ADV	Adv	_	5	advmod	_	_
+2	Нас	нас	ADV	Adv	_	4	advmod	_	_
 3	,	,	PUNCT	Punct_Comma	_	2	punct	_	_
-4	сара	сара́	PRON	Pron_Pers_1Sg	Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
-5	соума	а́кәзаара	AUX	V_Stat_NonFin_Pres_Q_S:3_IO:1Sg_Cop	Dyn=No|Mood=Int|Number[io]=Sing|Person[io]=1|Person[subj]=3|Tense=Pres|VerbForm=NonFin	0	root	_	_
+4	сара	сара́	PRON	Pron_Pers_1Sg	Number=Sing|Person=1|PronType=Prs	0	root	_	_
+5	соума	а́кәзаара	AUX	V_Stat_NonFin_Pres_Q_S:3_IO:1Sg_Cop	Dyn=No|Mood=Int|Number[io]=Sing|Person[io]=1|Person[subj]=3|Tense=Pres|VerbForm=NonFin	4	cop	_	_
 6	хәарҭара	а-хәарҭара́	NOUN	Noun_NH_Sg	Animacy=Nhum|Number=Sing	7	nsubj	_	_
-7	злам	а́-ла-заа-ра	VERB	V_Stat_NonFin_Pres_Neg_S:3_S:Ad_LO:Rel_Rel	Dyn=No|Person[lo]=Rel|Person[subj]=3|Polarity=Neg|Tense=Pres|VerbForm=NonFin	9	ccomp:pred	_	_
+7	злам	а́-ла-заа-ра	VERB	V_Stat_NonFin_Pres_Neg_S:3_S:Ad_LO:Rel_Rel	Dyn=No|Person[lo]=Rel|Person[subj]=3|Polarity=Neg|Tense=Pres|VerbForm=NonFin	9	xcomp	_	_
 8	ҳәа	ҳәа́	PART	Prt_Quote	_	7	mark	_	_
-9	иуҧхьаӡо	а́-ҧхьаӡа-ра	VERB	V_Dyn_Tr_NonFin_Pres_S:2SgM_DO:Rel_Rel	Dyn=Yes|Gender[subj]=Masc|Number[subj]=Sing|Person[obj]=Rel|Person[subj]=2|Tense=Pres|Trans=Yes|VerbForm=NonFin	5	csubj	_	_
-10	!	!	PUNCT	Punct_ExclPoint	_	5	punct	_	_
+9	иуҧхьаӡо	а́-ҧхьаӡа-ра	VERB	V_Dyn_Tr_NonFin_Pres_S:2SgM_DO:Rel_Rel	Dyn=Yes|Gender[subj]=Masc|Number[subj]=Sing|Person[obj]=Rel|Person[subj]=2|Tense=Pres|Trans=Yes|VerbForm=NonFin	4	csubj	_	_
+10	!	!	PUNCT	Punct_ExclPoint	_	4	punct	_	_
 
 # sent_id = w212600
 # text = Хыш-хырҵәыла изааӡада ҳаҧшәма ихәыҷқәа ? !
