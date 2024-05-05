@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>263</sentences><tokens>2444</tokens><words>2444</words><fused>0</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>263</sentences><tokens>2444</tokens><words>2444</words><fused>0</fused></test>
+  </size>
+  <lemmas unique="625" /><!-- ,, ., –, !, а-ҳәара́, ?, сара́, уи́, а-бара́, а-бгахәыҷы́, уара́, а́кәзаара, а-ла́, а-ҵы́сҕра, а-ҿы́заара -->
+  <forms unique="1050" /><!-- ,, ., –, !, ?, уи, сара, аҳәеит, Абгахәыҷы, уара, ҳәа, аха, Аҵысҕра, :, ус -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="13">
+    <tag name="ADJ">24</tag><!-- а-ду́, а-хәыҷы́, а́-цәгьа, даҽа́, а-бзи́а, а-гаӡа́, а-кы́, а-кьа́кьа, а-ле́ишәацәгьа, а-та́та -->
+    <tag name="ADP">53</tag><!-- а-зы́, а́ҟара, нахы́с, а́асҭа, а́хь, а́ҧхьа, а-ҟны́, а́иҧш, а-тәы́, а-ҵыхәтәаны́ -->
+    <tag name="ADV">173</tag><!-- аба́с, акы́р, ус, нас, џьара́, бзи́а, еицны́, еиҭа́, зны, уа́ҳа -->
+    <tag name="AUX">20</tag><!-- а́кәзаара -->
+    <tag name="CCONJ">16</tag><!-- аха́, ма́ -->
+    <tag name="INTJ">3</tag><!-- абаа́к, ама́рџьа, ҳа́и -->
+    <tag name="NOUN">467</tag><!-- а-бгахәыҷы́, а-ла́, а-ҵы́сҕра, а-гәы́, а́-мшә, а́-ҧшәма, а́ҧсуа, а-ҧсы́, а́-лым, а́-шьхыц -->
+    <tag name="NUM">7</tag><!-- акы́, ҩба́, хәҩы́, ҩы́џьа -->
+    <tag name="PART">17</tag><!-- ҳәа́, шҧа́ -->
+    <tag name="PRON">146</tag><!-- сара́, уи́, уара́, зегьы́, шәара́, иара́, акы́, ари́, ҳара́, аӡәы́ -->
+    <tag name="PROPN">13</tag><!-- Ҵыхәакьаҿ, Алым, Базала, Аҧсны́ -->
+    <tag name="PUNCT">773</tag><!-- ,, ., –, !, ?, :, «, », … -->
+    <tag name="VERB">732</tag><!-- а-ҳәара́, а-бара́, а-ҿы́заара, а́-мазаара, а-цара́, а́-лагара, а́-ҟаҵара, а-ҭахра́, а́-ҟазаара, а-ды́рра -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="128">
+    <feat name="Animacy" value="Hum" upos="NOUN,NUM,PRON,VERB">72</feat><!-- аҩсҭаа, аҧсуа, аҩызцәа, ҳаҧшәма, Аҧшәма, аҧсуагьы, аӡәгьы, сашьцәа, ауаа, нхаҩык -->
+    <feat name="Animacy" value="Nhum" upos="ADV,NOUN,NUM,PRON,VERB">435</feat><!-- Абгахәыҷы, Аҵысҕра, Абызкаҭаҳа, Амҵ, Ашьхыц, ала, Алым, Ашхырцәаҕь, акгьы, акәац -->
+    <feat name="Aspect" value="Iter" upos="VERB">2</feat><!-- сузыӡырҩлоит, узгалап -->
+    <feat name="Case" value="Abe" upos="NOUN">2</feat><!-- рахәыда -->
+    <feat name="Case" value="Ben" upos="ADJ,NOUN">2</feat><!-- Аказы, аамҭазы -->
+    <feat name="Case" value="Ess" upos="ADJ,NOUN">5</feat><!-- Бгас, ахықәан, гәырҩас, џьашьатәыс, џьашьахәыс -->
+    <feat name="Case" value="Ine" upos="NOUN">2</feat><!-- абардраҿы, иашҭаҿы -->
+    <feat name="Case" value="Ins" upos="NOUN">6</feat><!-- Хыш-хырҵәыла, архала, гәышҧыла, маанала, мчыла, џьабаала -->
+    <feat name="Case" value="Lat" upos="NOUN">3</feat><!-- абнахь, архахь, умҩахь -->
+    <feat name="Case" value="Loc" upos="NOUN">1</feat><!-- акаҟны -->
+    <feat name="Case" value="Ter" upos="NOUN">1</feat><!-- Рашҭанӡа -->
+    <feat name="Definite" value="Def" upos="ADJ,NOUN,NUM,VERB">322</feat><!-- Абгахәыҷы, Аҵысҕра, Абызкаҭаҳа, Амҵ, Ашьхыц, ала, Алым, Ашхырцәаҕь, акәац, амла -->
+    <feat name="Dyn" value="No" upos="AUX,VERB">120</feat><!-- иаҿын, закәызеи, соуп, акәын, акәзар, ауп, иахьтәаз, иаҿыз, изуҭахузеи, истәуп -->
+    <feat name="Dyn" value="Yes" upos="VERB">592</feat><!-- аҳәеит, аҳәан, аҿынанахеит, иалагеит, иҳәеит, рҳәеит, умбои, ашәаҳәара, аҳәара, иаацәажәеит -->
+    <feat name="Evident" value="Nfh2" upos="VERB">1</feat><!-- шәырфахьазаарын -->
+    <feat name="Gender" value="Masc" upos="PRON">25</feat><!-- уара, иаргьы, уаргьы, иара -->
+    <feat name="Gender[cs]" value="Masc" upos="VERB">1</feat><!-- иусырбап -->
+    <feat name="Gender[io]" value="Masc" upos="VERB">22</feat><!-- иаҳаз, шәит, игу, изумоузеи, изҭодаз, иитәымыз, имамызт, иман, иманы, имаӡаз -->
+    <feat name="Gender[io]" value="Neut" upos="AUX,VERB">36</feat><!-- акәын, иаацәажәеит, акәзар, акәхеит, ауп, аисра, аманы, анакәха, аума, аҳауан -->
+    <feat name="Gender[lo]" value="Masc" upos="VERB">10</feat><!-- ааихьнашьуан, дааиҧылеит, диҵаланы, иааумхны, инеиҧылан, инықәгылан, наиарҳәеит, уихымччан, уиҭаххаӡом, унаалом -->
+    <feat name="Gender[lo]" value="Neut" upos="VERB">126</feat><!-- иалагеит, иаҿын, сықәыртәа, иааҵашәеит, иаҩуцеит, иаҿыз, илаланы, иналагеит, инамҵасны, Саҭоумҵан -->
+    <feat name="Gender[obj]" value="Masc" upos="VERB">2</feat><!-- узгалап, урыцҳасшьоит -->
+    <feat name="Gender[po]" value="Masc" upos="VERB">2</feat><!-- Иузымдыруа, узымдырӡои -->
+    <feat name="Gender[po]" value="Neut" upos="VERB">2</feat><!-- азхамҵеит, азыгәаҕьуамызт -->
+    <feat name="Gender[psor]" value="Masc" upos="ADP,NOUN,VERB">37</feat><!-- иуцәажәашьоузеи, уашәа, уаҧхьа, уҟәаҟәа, Угәы, ила, Умш, иашҭаҿы, игәы, иеигәышә -->
+    <feat name="Gender[psor]" value="Neut" upos="ADP,ADV,NOUN,VERB">51</feat><!-- азы, аҟара, аҿынанахеит, ахь, аҟны, еиҧш, ала, атәы, аҵаҟа, Аҵыхәтәан -->
+    <feat name="Gender[refl]" value="Masc" upos="VERB">2</feat><!-- Иҽкамыжькәа, уҽаанкыл -->
+    <feat name="Gender[refl]" value="Neut" upos="VERB">3</feat><!-- аҽамнахырц, аҽаргәыбзыҕит, аҽаҟьеит -->
+    <feat name="Gender[ro]" value="Masc" upos="VERB">11</feat><!-- Изуцәызӡарызеи, изааибамгеит, изгылан, илаланы, иузыҧшу, сизчалтуеит, сизылаҵоит, сизыцәаҕәоит, сузлеиуеит, сузыӡырҩлоит -->
+    <feat name="Gender[ro]" value="Neut" upos="VERB">11</feat><!-- Иазууазеи, Иазызуазеи, Уазыразума, азыразхан, иазхәыцит, иазҿнаҭуа, ианазааигәаха, иназааигәахан, ишзацәымцоз, сазыразуп -->
+    <feat name="Gender[subj]" value="Com" upos="VERB">27</feat><!-- Дышнеиуаз, дааиҧылеит, даанхон, даахәыцны, далагеит, дахьнеиуаз, даҳхылаҧшуеит, дбеиан, деиҭаҵааит, дзынхоз -->
+    <feat name="Gender[subj]" value="Masc" upos="VERB">98</feat><!-- иҳәеит, умбои, сибоит, уааи, ҿааиҭит, Иазууазеи, иаҩуцеит, изуҭахузеи, иҟауҵо, уаангылишь -->
+    <feat name="Gender[subj]" value="Neut" upos="VERB">93</feat><!-- аҳәеит, аҳәан, аҿынанахеит, иаҳәаз, ҿаанаҭит, иакит, ишьҭнахит, ныҟанаҵеит, Амшәгьы, Иаҳахьаз -->
+    <feat name="Mood" value="Cnd" upos="AUX,VERB">22</feat><!-- акәзар, уҭахымзар, Еилукаазар, Иҳамҳәар, аҧыхьашәозар, инаҧшызар, иҳауҳәароуп, ласҵар, нҵәар, сыҟамзар -->
+    <feat name="Mood" value="Cnd2" upos="VERB">2</feat><!-- симамызҭгьы, уҧшуазҭгьы -->
+    <feat name="Mood" value="Imp" upos="VERB">26</feat><!-- сықәыртәа, уааи, уаангылишь, уца, шәит, Саҭоумҵан, Уаала, Шәаала, аажәга, еизгала -->
+    <feat name="Mood" value="Int" upos="AUX,VERB">31</feat><!-- умбои, изуҭахузеи, Изуцәызӡарызеи, Уааи, Уазыразума, Уалымгаӡои, аума, зеиқәузеи, иабадыруаз, изумоузеи -->
+    <feat name="Mood" value="Opt" upos="VERB">2</feat><!-- сҿамҳандаз, удыруандаз -->
+    <feat name="Mood" value="Prp" upos="VERB">10</feat><!-- ааигарц, агарц, адырырц, арӡырц, аҽамнахырц, зфарц, иаурхәарц, мгарц, нсырхарц, уакырц -->
+    <feat name="Mood" value="Sub" upos="VERB">2</feat><!-- аабзиахааит, убааит -->
+    <feat name="NameType" value="Geo" upos="PROPN">7</feat><!-- Базала, Алыми, Алым, Аҧсны -->
+    <feat name="NameType" value="Prs" upos="PROPN">6</feat><!-- Ҵыхәакьаҿ -->
+    <feat name="Number" value="Card" upos="NOUN">1</feat><!-- ҩ-гыгшәыг -->
+    <feat name="Number" value="Plur" upos="ADJ,NOUN,PRON">69</feat><!-- шәара, аҩызцәа, ҳара, абгақәа, ажьақәа, сашьцәа, алақәа, ауаа, ашьхақәа, ашәҭқәа -->
+    <feat name="Number" value="Sing" upos="ADJ,NOUN,PRON,VERB">602</feat><!-- сара, Абгахәыҷы, уара, уи, Аҵысҕра, аҩсҭаа, Абызкаҭаҳа, Амҵ, Ашьхыц, ала -->
+    <feat name="Number[cs]" value="Sing" upos="VERB">1</feat><!-- иусырбап -->
+    <feat name="Number[io]" value="Plur" upos="AUX,VERB">18</feat><!-- Ишәыхьзеи, Иҳамаҵәҟьам, Иҳахьыз, ахьрымам, дҳамам, иразҵааит, ракәхан, ракәын, раҳан, рибамҭо -->
+    <feat name="Number[io]" value="Sing" upos="AUX,VERB">66</feat><!-- соуп, акәын, иаацәажәеит, иаҳаз, акәзар, акәхеит, ауп, истәуп, шәит, аисра -->
+    <feat name="Number[lo]" value="Plur" upos="VERB">16</feat><!-- рылеибахит, даҳхылаҧшуеит, иаарыдгылт, инарылаҧшит, инарықәгылеит, инарықәтәа-аарықәтәо, иркылакны, ирышьҭаланы, ирҿасҵаша, ишәҿасҵап -->
+    <feat name="Number[lo]" value="Sing" upos="VERB">139</feat><!-- иалагеит, иаҿын, сықәыртәа, иааҵашәеит, иаҩуцеит, иаҿыз, илаланы, иналагеит, инамҵасны, Саҭоумҵан -->
+    <feat name="Number[obj]" value="Plur" upos="VERB">6</feat><!-- шәеибашьуама, шәырфахьазаарын, шәырхәышәтәуеит, шәырҭахуп, Ҳзыхьчогьы, ҳазҭахугьы -->
+    <feat name="Number[obj]" value="Sing" upos="VERB">12</feat><!-- сибоит, сықәыртәа, Саҭоумҵан, суфома, сшиҭахым, сышҧоубаз, узгалап, урыцҳасшьоит -->
+    <feat name="Number[po]" value="Plur" upos="VERB">3</feat><!-- рзымуит, шҧашәзеилымкаац, шәзеилымкаацт -->
+    <feat name="Number[po]" value="Sing" upos="VERB">7</feat><!-- Исзымдыруа, Иузымдыруа, азхамҵеит, азыгәаҕьуамызт, исызуҭаӡом, сзымдыруа, узымдырӡои -->
+    <feat name="Number[psor]" value="Plur" upos="ADJ,ADP,ADV,NOUN,NUM,PRON,VERB">51</feat><!-- ҳаҧшәма, шәаасҭа, рыҧсы, рыҧшәма, рҵыхәақәа, Иҳаиҕьӡам, Рашҭанӡа, Шәгәы, Шәеимак, Шәылахь -->
+    <feat name="Number[psor]" value="Sing" upos="ADP,ADV,NOUN,VERB">107</feat><!-- азы, аҟара, аҿынанахеит, ахь, аҟны, еиҧш, иуцәажәашьоузеи, сашьцәа, уашәа, уаҧхьа -->
+    <feat name="Number[refl]" value="Plur" upos="VERB">2</feat><!-- рҽааизганы, шәҽаанышәкыл -->
+    <feat name="Number[refl]" value="Sing" upos="VERB">5</feat><!-- Иҽкамыжькәа, аҽамнахырц, аҽаргәыбзыҕит, аҽаҟьеит, уҽаанкыл -->
+    <feat name="Number[ro]" value="Plur" upos="VERB">9</feat><!-- иаарызхәыцит, ирзызузгьы, иҳацәшәо, рыцәцеит, рыцәҩашьеит, шәзыҟарҵоит, ҳазҭеиҧсоит, ҳашрыцәшәоз, ҳрыцәшәоит -->
+    <feat name="Number[ro]" value="Sing" upos="VERB">23</feat><!-- Иазууазеи, Иазызуазеи, Изуцәызӡарызеи, Уазыразума, азыразхан, иазхәыцит, иазҿнаҭуа, ианазааигәаха, изааибамгеит, изгылан -->
+    <feat name="Number[subj]" value="Plur" upos="VERB">57</feat><!-- рҳәеит, еимаркит, шәит, Иҳамҳәар, Шәаала, Шәызлеиҕьу, Шәызҿу, аажәга, анырба, анырбалак -->
+    <feat name="Number[subj]" value="Sing" upos="VERB">282</feat><!-- аҳәеит, аҳәан, аҿынанахеит, иҳәеит, умбои, иаҳәаз, сибоит, уааи, ҿааиҭит, ҿаанаҭит -->
+    <feat name="NumType" value="Card" upos="NUM">7</feat><!-- акгьы, акы, аҩбагьы, рыҩбагьы, хәҩык, шәҩыџьагьы -->
+    <feat name="Person" value="1" upos="PRON">37</feat><!-- сара, саргьы, ҳара -->
+    <feat name="Person" value="2" upos="PRON">31</feat><!-- уара, шәара, уаргьы -->
+    <feat name="Person" value="3" upos="PRON">6</feat><!-- даргьы, иаргьы, Урҭ, иара -->
+    <feat name="Person[cs]" value="2" upos="VERB">1</feat><!-- иусырбап -->
+    <feat name="Person[io]" value="1" upos="AUX,VERB">13</feat><!-- соуп, истәуп, Иҳамаҵәҟьам, Иҳахьыз, дҳамам, соума, сымам, ҳаиҭоит, ҳамам -->
+    <feat name="Person[io]" value="2" upos="VERB">11</feat><!-- Ишәыхьзеи, изумоузеи, исызуҭаӡом, иухьзеи, суазҵаауеит, уаҳахьоума, умамзар, умаҳаӡаци, шәмоуа, шәырҭоит -->
+    <feat name="Person[io]" value="3" upos="AUX,VERB">60</feat><!-- акәын, иаацәажәеит, иаҳаз, акәзар, акәхеит, ауп, шәит, аисра, аманы, анакәха -->
+    <feat name="Person[io]" value="Rec" upos="VERB">1</feat><!-- еидашшыло -->
+    <feat name="Person[io]" value="Rel" upos="AUX,VERB">7</feat><!-- закәызеи, зыбжьаз, изтәугьы -->
+    <feat name="Person[lo]" value="1" upos="VERB">5</feat><!-- даҳхылаҧшуеит, днасықәтәаны, иҳауҳәароуп, схымҳәааӡакәа, сҿамҳандаз -->
+    <feat name="Person[lo]" value="2" upos="VERB">3</feat><!-- иааумхны, ишәҿасҵап, унаалом -->
+    <feat name="Person[lo]" value="3" upos="VERB">147</feat><!-- иалагеит, иаҿын, сықәыртәа, иааҵашәеит, иаҩуцеит, иаҿыз, илаланы, иналагеит, инамҵасны, рылеибахит -->
+    <feat name="Person[lo]" value="Rec" upos="VERB">13</feat><!-- еилыскааит, аиқәҧара, еидшылеит, еимдо, еинааланы, еиқәнархеит, еиқәҧеит, зеиқәузеи, ишеиважьыз, шҧашәзеилымкаац -->
+    <feat name="Person[lo]" value="Rel" upos="VERB">8</feat><!-- узҿузеи, Излихрыз, Узҿу, Шәызҿу, злам, злоу, зыҕроу -->
+    <feat name="Person[obj]" value="1" upos="VERB">12</feat><!-- сибоит, сықәыртәа, Саҭоумҵан, суфома, сшиҭахым, сышҧоубаз, Ҳзыхьчогьы, ҳазҭахугьы -->
+    <feat name="Person[obj]" value="2" upos="VERB">6</feat><!-- узгалап, урыцҳасшьоит, шәеибашьуама, шәырфахьазаарын, шәырхәышәтәуеит, шәырҭахуп -->
+    <feat name="Person[obj]" value="3" upos="VERB">206</feat><!-- аҳәеит, аҳәан, иҳәеит, рҳәеит, умбои, еилыскааит, еимаркит, иакит, иаҩуцеит, избеит -->
+    <feat name="Person[obj]" value="Rel" upos="VERB">24</feat><!-- иаҳәаз, Иазууазеи, иҟауҵо, Иазызуазеи, Иаҳахьаз, Изулакгьы, Иууазеи, еимаркуаз, еимаркша, еимаркыз -->
+    <feat name="Person[po]" value="1" upos="VERB">3</feat><!-- Исзымдыруа, исызуҭаӡом, сзымдыруа -->
+    <feat name="Person[po]" value="2" upos="VERB">4</feat><!-- Иузымдыруа, узымдырӡои, шҧашәзеилымкаац, шәзеилымкаацт -->
+    <feat name="Person[po]" value="3" upos="VERB">3</feat><!-- азхамҵеит, азыгәаҕьуамызт, рзымуит -->
+    <feat name="Person[psor]" value="1" upos="ADP,NOUN,VERB">34</feat><!-- ҳаҧшәма, сашьцәа, сгәы, сыхаара, сыҧсы, Иҳаиҕьӡам, Сшьапқәа, Сыкаҭа, исусӡам, сахь -->
+    <feat name="Person[psor]" value="2" upos="ADP,ADV,NOUN,NUM,VERB">39</feat><!-- шәаасҭа, иуцәажәашьоузеи, уашәа, уаҧхьа, уҟәаҟәа, Угәы, Умш, Шәгәы, Шәеимак, Шәылахь -->
+    <feat name="Person[psor]" value="3" upos="ADJ,ADP,ADV,NOUN,NUM,PRON,VERB">85</feat><!-- азы, аҟара, аҿынанахеит, ахь, аҟны, еиҧш, ала, атәы, аҵаҟа, ила -->
+    <feat name="Person[psor]" value="Rel" upos="NOUN,VERB">7</feat><!-- Измааноу, Измааноузеи, згәы, змааназ, зыхьӡыз, зыхәҭоугьы, зыҧсы -->
+    <feat name="Person[refl]" value="2" upos="VERB">2</feat><!-- уҽаанкыл, шәҽаанышәкыл -->
+    <feat name="Person[refl]" value="3" upos="VERB">5</feat><!-- Иҽкамыжькәа, аҽамнахырц, аҽаргәыбзыҕит, аҽаҟьеит, рҽааизганы -->
+    <feat name="Person[ro]" value="1" upos="VERB">3</feat><!-- исцәызгозеи, иҳацәшәо, ҳазҭеиҧсоит -->
+    <feat name="Person[ro]" value="2" upos="VERB">6</feat><!-- Изуцәызӡарызеи, иузыҧшу, сузлеиуеит, сузыӡырҩлоит, суццоит, шәзыҟарҵоит -->
+    <feat name="Person[ro]" value="3" upos="VERB">23</feat><!-- Иазууазеи, Иазызуазеи, Уазыразума, азыразхан, иаарызхәыцит, иазхәыцит, иазҿнаҭуа, ианазааигәаха, изааибамгеит, изгылан -->
+    <feat name="Person[ro]" value="Rec" upos="VERB">2</feat><!-- еизыразны, рҽааизганы -->
+    <feat name="Person[ro]" value="Rel" upos="VERB">3</feat><!-- Шәызлеиҕьу, злоубазеи, сзызку -->
+    <feat name="Person[subj]" value="1" upos="VERB">79</feat><!-- еилыскааит, избеит, сааҧсеит, Иазызуазеи, Издыруеит, Изулакгьы, Изуцәызӡарызеи, Иҳамҳәар, ааиҭаскып, аасрыхып -->
+    <feat name="Person[subj]" value="2" upos="VERB">88</feat><!-- умбои, уааи, Иазууазеи, иаҩуцеит, изуҭахузеи, иҟауҵо, уаангылишь, узҿузеи, уца, уҭахымзар -->
+    <feat name="Person[subj]" value="3" upos="ADV,AUX,VERB">468</feat><!-- аҳәеит, аҳәан, аҿынанахеит, иалагеит, иаҿын, иҳәеит, закәызеи, рҳәеит, соуп, акәын -->
+    <feat name="Person[subj]" value="Rec" upos="VERB">7</feat><!-- рылеибахит, еибарбылгьеит, изааибамгеит, рибамҭо, шнибархаз, шәеибашьуама -->
+    <feat name="Person[subj]" value="Rel" upos="VERB">46</feat><!-- иаҳаз, иуцәажәашьоузеи, Ишәыхьзеи, Иҟалаз, иаҿыз, иҟаз, Иаауаз, Исзымдыруа, Иузымдыруа, Иҳахьыз -->
+    <feat name="Polarity" value="Neg" upos="VERB">83</feat><!-- умбои, уҭахымзар, ыҟаӡам, Амшәгьы, Исзымдыруа, Иуадаҩым, Иузымдыруа, Иҳаиҕьӡам, Иҳамаҵәҟьам, Иҳамҳәар -->
+    <feat name="PronType" value="Dem" upos="PRON">30</feat><!-- уи, ари, убри, Абарҭқәа, Убарҭқәа, Урҭқәа, егьи -->
+    <feat name="PronType" value="Ind" upos="PRON">11</feat><!-- акгьы, аӡәгьы, ак, акы, руак -->
+    <feat name="PronType" value="Prs" upos="PRON">89</feat><!-- сара, уара, уи, шәара, иара, саргьы, ҳара, иаргьы, даргьы, уаргьы -->
+    <feat name="Reln" value="Ben" upos="VERB">25</feat><!-- Иазууазеи, Иазызуазеи, Уазыразума, азыразхан, еизыразны, иаарызхәыцит, иазхәыцит, иазҿнаҭуа, ианазааигәаха, изааибамгеит -->
+    <feat name="Reln" value="Com" upos="VERB">1</feat><!-- суццоит -->
+    <feat name="Reln" value="Ins" upos="VERB">3</feat><!-- Шәызлеиҕьу, злоубазеи, илаланы -->
+    <feat name="Reln" value="Mal" upos="VERB">8</feat><!-- Изуцәызӡарызеи, исцәызгозеи, ишзацәымцоз, иҳацәшәо, рыцәцеит, рыцәҩашьеит, ҳашрыцәшәоз, ҳрыцәшәоит -->
+    <feat name="Reln" value="Pot" upos="VERB">11</feat><!-- Исзымдыруа, Иузымдыруа, азхамҵеит, азыгәаҕьуамызт, изымцеит, исызуҭаӡом, рзымуит, сзымдыруа, узымдырӡои, шҧашәзеилымкаац -->
+    <feat name="RelType" value="Cause" upos="VERB">8</feat><!-- изуҭахузеи, Изуцәызӡарызеи, дзынхоз, зеиқәузеи, изумоузеи, узцәажәозеи, ҳзимыцхраарызеи -->
+    <feat name="RelType" value="Loc" upos="VERB">18</feat><!-- ахьтәаз, иахьтәаз, ахьгылаз, ахькажьызгьы, ахьрымам, ахьынаҧшуаз, ахьышьҭаз, ахьықәтәаз, дахьнеиуаз, иабадыруаз -->
+    <feat name="RelType" value="Mnr" upos="AUX,VERB">32</feat><!-- ишнеиуаз, иштәаз, шыҟаз, Дышнеиуаз, Ишааиуаз, дшааиуаз, ишаҿыз, ишаҿыц, ишеиважьыз, ишеилацәажәоз -->
+    <feat name="RelType" value="Tmp" upos="VERB">14</feat><!-- ианынаскьа, анааҟәыҵ, анаба, анага, анакәха, анаҳәа, анырба, анырбалак, ианазааигәаха, ианалага -->
+    <feat name="Tense" value="Aor" upos="VERB">273</feat><!-- аҳәеит, аҿынанахеит, иалагеит, иҳәеит, рҳәеит, иаацәажәеит, иакит, ҿааиҭит, ҿаанаҭит, Ишәыхьзеи -->
+    <feat name="Tense" value="Cnd" upos="VERB">1</feat><!-- Излихрыз -->
+    <feat name="Tense" value="Fut" upos="VERB">20</feat><!-- Изуцәызӡарызеи, ааиҭаскып, аасрыхып, аасшьап, збап, исфап, иусырбап, ишәҿасҵап, иҟаҳҵарызеи, снацҳап -->
+    <feat name="Tense" value="Fut2" upos="VERB">2</feat><!-- еимаркша, ирҿасҵаша -->
+    <feat name="Tense" value="Imp" upos="AUX,VERB">108</feat><!-- иаҿын, закәызеи, акәын, иахьтәаз, иаҿыз, инеиуан, ишнеиуаз, иштәаз, иҟаз, шыҟаз -->
+    <feat name="Tense" value="Past" upos="VERB">44</feat><!-- аҳәан, иаҳаз, иаҳәаз, Иҟалаз, Иҳахьыз, аагәахәын, ааханаҵан, ааҧшқахан, азыразхан, ахьтәаз -->
+    <feat name="Tense" value="Pqp" upos="VERB">6</feat><!-- Иаҳахьаз, еизахьан, иааҧсахьаз, иалагахьан, игәеиҭахьан, инаскьахьан -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">207</feat><!-- соуп, умбои, иуцәажәашьоузеи, сибоит, Иазууазеи, акәзар, ауп, иаамҭоуп, изуҭахузеи, истәуп -->
+    <feat name="Tense" value="Prf" upos="VERB">8</feat><!-- еицныҟәахьаны, здырхьеит, ишаҿыц, уаҳахьоума, умаҳаӡаци, шҧашәзеилымкаац, шәзеилымкаацт, шәырфахьазаарын -->
+    <feat name="Trans" value="No" upos="VERB">330</feat><!-- иалагеит, ашәаҳәара, иаацәажәеит, иаҳаз, сықәыртәа, уааи, Ишәыхьзеи, Иҟалаз, акәхеит, иаагылеит -->
+    <feat name="Trans" value="Yes" upos="VERB">274</feat><!-- аҳәеит, аҳәан, аҿынанахеит, иҳәеит, рҳәеит, умбои, аҳәара, иаҳәаз, сибоит, ҿааиҭит -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">398</feat><!-- аҳәеит, аҳәан, аҿынанахеит, иалагеит, иаҿын, иҳәеит, рҳәеит, соуп, акәын, иаацәажәеит -->
+    <feat name="VerbForm" value="NonFin" upos="AUX,VERB">324</feat><!-- закәызеи, умбои, иаҳаз, иаҳәаз, иуцәажәашьоузеи, Иазууазеи, Ишәыхьзеи, Иҟалаз, акәзар, ахьтәаз -->
+    <feat name="VerbForm" value="Vnoun" upos="VERB">30</feat><!-- ашәаҳәара, аҳәара, аизгара, ныҟәара, Афароуп, Ақәҧара, ааҧхьара, абыбра, агылараҵәҟьа, агәаара -->
+    <feat name="Voice" value="Cau" upos="VERB">25</feat><!-- сықәыртәа, аасрыхып, аахнарџьаџьеит, арыцқьара, арӡырц, аҽаргәыбзыҕит, еибарбылгьеит, еиқәнархеит, иаартыз, иакәыршаны -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="47">
+    <dep name="acl:relcl">29</dep>
+    <dep name="advcl">63</dep>
+    <dep name="advcl:cond">16</dep>
+    <dep name="advcl:conv">93</dep>
+    <dep name="advcl:purp">2</dep>
+    <dep name="advcl:quote">34</dep>
+    <dep name="advcl:seq">23</dep>
+    <dep name="advmod">150</dep>
+    <dep name="advmod:q">1</dep>
+    <dep name="amod">17</dep>
+    <dep name="appos">3</dep>
+    <dep name="case">47</dep>
+    <dep name="cc">18</dep>
+    <dep name="ccomp">1</dep>
+    <dep name="ccomp:iobj">2</dep>
+    <dep name="ccomp:obj">16</dep>
+    <dep name="ccomp:purp">2</dep>
+    <dep name="ccomp:quote">40</dep>
+    <dep name="compound">5</dep>
+    <dep name="compound:prt">5</dep>
+    <dep name="conj">130</dep>
+    <dep name="cop">15</dep>
+    <dep name="csubj">20</dep>
+    <dep name="det">10</dep>
+    <dep name="discourse">4</dep>
+    <dep name="flat">1</dep>
+    <dep name="iobj">27</dep>
+    <dep name="mark">18</dep>
+    <dep name="nmod">2</dep>
+    <dep name="nmod:poss">32</dep>
+    <dep name="nmod:quote">1</dep>
+    <dep name="nsubj">269</dep>
+    <dep name="nummod">1</dep>
+    <dep name="obj">110</dep>
+    <dep name="obj:lo">54</dep>
+    <dep name="obj:po">3</dep>
+    <dep name="obj:poss">1</dep>
+    <dep name="obj:ro">6</dep>
+    <dep name="obl">67</dep>
+    <dep name="orphan">1</dep>
+    <dep name="parataxis">22</dep>
+    <dep name="punct">773</dep>
+    <dep name="root">263</dep>
+    <dep name="vocative">14</dep>
+    <dep name="xcomp">8</dep>
+    <dep name="xcomp:lo">24</dep>
+    <dep name="xcomp:obj">1</dep>
+  </deps>
+</treebank>
