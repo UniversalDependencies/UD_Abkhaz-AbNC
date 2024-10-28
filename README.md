@@ -4,7 +4,7 @@ UD_Abkhaz-AbNC is a treebank based on texts from the Abkhaz National Corpus, [Ab
 
 # Introduction
 
-UD_Abkhaz-AbNC is a treebank based on texts from the Abkhaz National Corpus, [AbNC](https://clarino.uib.no/abnc), which is a corpus of written texts from a variety of genres. The sentences for the initial release of the treebank are taken from a collection of fairy tales for children (Аҧсуа лакәқәа – Ахәыҷқәа рзы, editor: Мықәба, А.).
+UD_Abkhaz-AbNC is a treebank based on texts from the Abkhaz National Corpus, [AbNC](https://clarino.uib.no/abnc), which is a corpus of written texts from a variety of genres. The sentences are taken from a collection of fairy tales for children (Аҧсуа лакәқәа – Ахәыҷқәа рзы, editor: Мықәба, А.) and a short novel by Валентин Дбар.
 
 The sentences are analysed using a finite state morphological analyser, and Constraint Grammar rules for disambiguation and dependency parsing. Both disambiguation and dependency analyses are corrected manually in a tool specifically developed for that purpose.
 
@@ -23,7 +23,9 @@ I am grateful to Saida Adzhindzhal (Suchum) for helping me understanding some of
 # Changelog
 
 * 2024-05-15 v2.14
-  * Initial release in Universal Dependencies.
+  * Initial release in Universal Dependencies, 263 sentences
+* 2024-10-28 v2.15
+  * new release, 853 sentences
 
 
 <pre>
