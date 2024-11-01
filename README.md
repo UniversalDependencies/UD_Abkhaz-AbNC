@@ -22,10 +22,11 @@ I am grateful to Saida Adzhindzhal (Suchum) for helping me understanding some of
 
 # Changelog
 
+* 2024-11-15 v2.15
+  * Added sentences to a total of 853
+  * Changed Trans=Yes/No to Subcat=Tran/Intr
 * 2024-05-15 v2.14
   * Initial release in Universal Dependencies, 263 sentences
-* 2024-10-28 v2.15
-  * new release, 853 sentences
 
 
 <pre>
