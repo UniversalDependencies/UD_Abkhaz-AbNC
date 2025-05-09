@@ -4,9 +4,13 @@ UD_Abkhaz-AbNC is a treebank based on texts from the Abkhaz National Corpus, [Ab
 
 # Introduction
 
-UD_Abkhaz-AbNC is a treebank based on texts from the Abkhaz National Corpus, [AbNC](https://clarino.uib.no/abnc), which is a corpus of written texts from a variety of genres. The sentences are taken from a collection of fairy tales for children (Аҧсуа лакәқәа – Ахәыҷқәа рзы, editor: Мықәба, А.) and a short novel by Валентин Дбар.
+UD_Abkhaz-AbNC is a treebank based on texts from the Abkhaz National Corpus, [AbNC](https://clarino.uib.no/abnc), which is a corpus of written texts from a variety of genres. The sentences are taken from a collection of fairy tales for children (Аҧсуа лакәқәа – Ахәыҷқәа рзы, editor: Мықәба, А.), a short story by Валентин Дбар and other literary texts.
 
 The sentences are analysed using a finite state morphological analyser, and Constraint Grammar rules for disambiguation and dependency parsing. Both disambiguation and dependency analyses are corrected manually in a tool specifically developed for that purpose.
+
+## Compatibility with the AbNC
+
+In the Abkhaz National Corpus, a proprietary annotation scheme for lemma forms and morpho-syntactic features is used. The AbNC annotations, from which the UD annotations are derived, are kept in the UD analyses: the original lemma form can be found in the MISC column as value of the LMSeg attribute; the morpho-syntactic features are available in the XPOS column.
 
 # Acknowledgments
 
@@ -22,6 +26,9 @@ I am grateful to Saida Adzhindzhal (Suchum) for helping me understanding some of
 
 # Changelog
 
+* 2025-05-15 v2.16
+  * Added sentences to a total of 1221
+  * Splitting off copula as separate token
 * 2024-11-15 v2.15
   * Added sentences to a total of 853
   * Changed Trans=Yes/No to Subcat=Tran/Intr
@@ -35,13 +42,13 @@ Data available since: UD v2.14
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: fiction
-Lemmas: manual native
-UPOS: manual native
-XPOS: not available
-Features: manual native
+Lemmas: converted from manual
+UPOS: converted from manual
+XPOS: manual native
+Features: converted from manual
 Relations: manual native
 Contributors: Meurer, Paul
-Contributing: here
+Contributing: elsewhere
 Contact: paul.meurer@uib.no
 ===============================================================================
 </pre>
