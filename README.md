@@ -41,6 +41,7 @@ I am grateful to Saida Adzhindzhal (Suchum) for helping me understanding some of
 Data available since: UD v2.14
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: fiction
 Lemmas: converted from manual
 UPOS: converted from manual
