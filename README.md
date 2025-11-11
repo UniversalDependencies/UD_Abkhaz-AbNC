@@ -16,7 +16,7 @@ In the Abkhaz National Corpus, a proprietary annotation scheme for lemma forms a
 
 The Abkhaz treebank and the tools used to create it have been developed by Paul Meurer.
 
-I am grateful to Saida Adzhindzhal (Suchum) for helping me understanding some of the constructions in the texts.
+I am grateful to Saida Adzhindzhal (Suchum) for helping me understand some of the constructions in the texts.
 
 ## References
 
@@ -26,6 +26,9 @@ I am grateful to Saida Adzhindzhal (Suchum) for helping me understanding some of
 
 # Changelog
 
+* 2025-11-15 v2.17
+  * Added sentences to a total of 1316
+  * Added Mood=Ind; changed obj:lo to iobj:lo and similar for the remaining obj:xx features
 * 2025-05-15 v2.16
   * Added sentences to a total of 1221
   * Splitting off copula as separate token
@@ -41,6 +44,7 @@ I am grateful to Saida Adzhindzhal (Suchum) for helping me understanding some of
 Data available since: UD v2.14
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: fiction
 Lemmas: converted from manual
 UPOS: converted from manual
