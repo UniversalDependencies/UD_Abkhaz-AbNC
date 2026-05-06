@@ -26,6 +26,8 @@ I am grateful to Saida Adzhindzhal (Suchum) for helping me understand some of th
 
 # Changelog
 
+* 2026-05-15 v2.18
+  * Added sentences to a total of 1545
 * 2025-11-15 v2.17
   * Added sentences to a total of 1316
   * Added Mood=Ind; changed obj:lo to iobj:lo and similar for the remaining obj:xx features
