@@ -1970,7 +1970,7 @@
 5	иқәынхо	а́-қәынхара	VERB	V_Dyn_Intr_NonFin_Pres_S:Rel_LO:3SgNH_Rel	Dyn=Yes|Gender[lo]=Neut|Number[lo]=Sing|Person[lo]=3|Person[subj]=Rel|Subcat=Intr|Tense=Pres|VerbForm=NonFin	6	acl:relcl	_	LMSeg:а́-қәын·ха-ра
 6	анхацәа	а-нхаҩы́	NOUN	Noun_H_Pl_Det	Animacy=Hum|Definite=Def|Number=Plur	14	nsubj	_	LMSeg:а-нхаҩы́
 7	зегьы	зегьы́	PRON	Pron_Quant	PronType=Tot	6	det	_	LMSeg:зегьы́
-8	Дәрыҧшь	Дәрыҧшь	PROPN	Noun_Prop_Anthr_LastName	NameType=Prs	10	obl	_	LMSeg:Дәрыҧшь
+8	Дәрыҧшь	Дәрыҧшь	PROPN	Noun_Prop_Place	NameType=Geo	10	obl	_	LMSeg:Дәрыҧшь
 9	ақыҭан	а-қы́ҭа	NOUN	Noun_NH_Sg_Poss:3SgNH_PP:ан	Animacy=Nhum|Case=Ess|Gender[psor]=Neut|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	nmod	_	LMSeg:а-қы́ҭа
 10	еизаны	а́изара	VERB	V_Dyn_Intr_NonFin_Cnv_Abs_Aor_S:3	Dyn=Yes|Person[subj]=3|Subcat=Intr|Tense=Aor|VerbForm=NonFin	14	advcl:conv	_	LMSeg:а́иза-ра
 11	аколнхара	а-колнха́ра	NOUN	Noun_NH_Sg_Det	Animacy=Nhum|Definite=Def|Number=Sing	12	obj	_	LMSeg:а-колнха́ра
