@@ -1,25 +1,25 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Abkhaz-AbNC:
-commit 0c736c784ac0849b36c79b1a6777dec0e13a0047
+commit eab451f6cc19c32df88060d04df9a5b5463af4a2
+Merge: 260e6ca 967387f
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Wed May 6 12:04:26 2026 +0200
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'ab_abnc'
 Language code (from CoNLL-U file name) = 'ab'
 Found the following data files: ab_abnc-ud-test.conllu
-Size: counted 13054 of 13054 words (nodes).
-Size: min(0, log((N/1000)**2)) = 5.13818920042605.
+Size: counted 14212 of 14212 words (nodes).
+Size: min(0, log((N/1000)**2)) = 5.30817335631756.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Did not find more than 10000 training words.
 Split: Did not find at least 10000 development words.
 Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
-Universal POS tags: 13 out of 17 found in the corpus.
+Universal POS tags: 14 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 8176 out of 13054 total words have one or more features.
+Features: 8982 out of 14212 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
@@ -30,10 +30,10 @@ Validity: 1
 (weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
 (weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
 (weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
-(weight=0.37037037037037) * (score{size}=0.371914536119986) = 0.137746124488884
+(weight=0.37037037037037) * (score{size}=0.384218399605763) = 0.142303110965098
 (weight=0.0740740740740741) * (score{split}=0.34) = 0.0251851851851852
-(weight=0.111111111111111) * (score{tags}=0.611764705882353) = 0.0679738562091503
+(weight=0.111111111111111) * (score{tags}=0.658823529411765) = 0.073202614379085
 (weight=0.111111111111111) * (score{udeprels}=0.810810810810811) = 0.0900900900900901
-(TOTAL score=0.50494587325726) * (availability=1) * (validity=1) = 0.50494587325726
+(TOTAL score=0.514731617903408) * (availability=1) * (validity=1) = 0.514731617903408
 STARS = 2.5
-UD_Abkhaz-AbNC	0.50494587325726	2.5
+UD_Abkhaz-AbNC	0.514731617903408	2.5
